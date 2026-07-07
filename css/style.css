@@ -335,135 +335,94 @@ section{
 /*==================================
         COVER RESPONSIVE
 ==================================*/
-
+/*==================================
+        COVER RESPONSIVE
+==================================*/
 @media screen and (max-width:768px){
 
     #opening{
-
-        padding:20px 18px;
-
-        min-height:100vh;
-
+        min-height:100dvh;
+        padding:20px 16px;
         display:flex;
-
         justify-content:center;
-
         align-items:center;
-
+        overflow:hidden;
     }
 
     .cover-content{
-
         width:100%;
-
         max-width:360px;
-
         margin:auto;
-
-        transform:none;
-
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        gap:12px;
+        max-height:100dvh;
     }
 
     .cover-subtitle{
-
         font-size:11px;
-
         letter-spacing:4px;
-
+        margin-bottom:0;
     }
 
     .cover-line{
-
         width:80px;
-
-        margin:12px auto 18px;
-
+        margin:0;
     }
 
     .cover-content h1{
-
-        font-size:clamp(42px,12vw,58px);
-
+        font-size:clamp(42px,11vw,56px);
         line-height:1;
-
-        margin-bottom:15px;
-
+        margin:0;
     }
 
     .cover-text{
-
         max-width:100%;
-
-        font-size:14px;
-
-        line-height:1.8;
-
-        margin:15px auto 20px;
-
+        font-size:13px;
+        line-height:1.7;
+        margin:0;
         padding:0 5px;
-
     }
 
     .cover-photo{
-
-        margin:15px 0;
-
+        margin:0;
     }
 
     .cover-frame{
-
-        width:min(190px,55vw);
-
+        width:160px;
         padding:6px;
-
     }
 
     .cover-date{
-
         padding:10px 20px;
-
         font-size:13px;
-
-        margin-bottom:18px;
-
+        margin:0;
     }
 
     .guest-box{
-
         width:100%;
-
-        padding:16px;
-
-        margin-bottom:18px;
-
+        padding:15px;
+        margin:0;
     }
 
     .guest-box small{
-
         font-size:12px;
-
+        margin-bottom:6px;
     }
 
     .guest-box h3{
-
         font-size:clamp(20px,6vw,26px);
-
         line-height:1.3;
-
         word-break:break-word;
-
     }
 
     #openInvitation{
-
-        width:100%;
-
-        max-width:230px;
-
-        height:52px;
-
+        width:210px;
+        height:50px;
         font-size:15px;
-
+        margin:0;
     }
 
 }
